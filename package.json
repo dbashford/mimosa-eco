@@ -1,0 +1,31 @@
+{
+  "name": "mimosa-eco",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dbashford/mimosa-eco",
+  "author": "David Bashford",
+  "description": "A ECO template compiler for Mimosa 2.0+",
+  "contributors": [
+    {
+      "name": "David Bashford",
+      "email": "dbashford@hotmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbashford/mimosa-eco"
+  },
+  "keywords": [
+    "mimosa",
+    "mmodule",
+    "compiler",
+    "eco"
+  ],
+  "dependencies": {
+    "eco": "1.1.0-rc-3"
+  },
+  "license": "MIT",
+  "main": "./src",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
