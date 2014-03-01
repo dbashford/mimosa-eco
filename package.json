@@ -1,6 +1,6 @@
 {
   "name": "mimosa-eco",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/dbashford/mimosa-eco",
   "author": "David Bashford",
   "description": "A ECO template compiler for Mimosa 2.0+",

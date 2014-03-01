@@ -1,12 +1,12 @@
 "use strict";
 
-var config = require( './config' )
+var config = require( "./config" )
   , getExtensions = function ( mimosaConfig ) {
     return mimosaConfig.eco.extensions;
   };
 
 var prefix = function ( config ) {
-  if ( config.template.wrapType === 'amd' ) {
+  if ( config.template.wrapType === "amd" ) {
     return "define(function (){ var templates = {};\n";
   }
 
@@ -14,7 +14,7 @@ var prefix = function ( config ) {
 };
 
 var suffix = function ( config ) {
-  if ( config.template.wrapType === 'amd' ) {
+  if ( config.template.wrapType === "amd" ) {
     return "return templates; });";
   } else {
     if ( config.template.wrapType === "common" ) {
